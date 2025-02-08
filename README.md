@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/JonesKwameOsei/social-links-profile)
-- Live Site URL: [Add live site URL here](https://joneskwameosei.github.io/social-links-profile/)
+- Solution URL: [GitHub Repo](https://github.com/JonesKwameOsei/social-links-profile)
+- Live Site URL: [Site is live](https://joneskwameosei.github.io/social-links-profile/)
 
 ## My process
 
