@@ -95,11 +95,25 @@ body {
   margin-top: 24px;
   font-size: 12px;
   text-align: center;
-  color: hsl(0, 0%, 40%);
+  color: hsl(0, 2%, 50%);
   padding: 12px 0;
 }
 
 .page-footer a {
   color: hsl(152, 44%, 52%);
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.page-footer a:hover {
+  color: hsl(152, 44%, 40%);
+}
+
+/* Desktop styles (1440px) */
+ /* Desktop styles (1440px) */
+@media screen and (min-width: 1440px) {
+    .profile-card {
+        max-width: 384px;
+        padding: 32px;
+    }
 }
