@@ -2,33 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
   <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main class="card">
+    <section>
+      <article class="profile-header">
+        <img src="./assets/images/profile.png" alt="Jones Osei Profile Picture" class="profile-img">
+        <h1 class="name">Jones Osei</h1>
+        <p class="location">Cheltenham, United Kingdom</p>
+        <p class="bio">"Software developer and avid reader."</p>
+      </article>
+    </section>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+    <section>
+      <nav class="social-nav" aria-label="Social media Links">
+        <a href="https://github.com/JonesKwameOsei" target="_blank" rel="noopener noreferrer">GitHub
+        </a>
+        <a href="https://www.frontendmentor.io/profile/JonesKwameOsei" target="_blank" rel="noopener noreferrer">Frontend Mentor 
+        </a>
+        <a href="https://www.linkedin.com/in/jonesosei/" target="_blank" rel="noopener noreferrer">LinkedIn
+        </a>
+        <a href="https://twitter.com/JonesKwameOsei" target="_blank" rel="noopener noreferrer">Twitter
+        </a>
+        <a href="https://www.instagram.com/oseikwamejones11/" target="_blank" rel="noopener noreferrer">Instagram
+        </a>
+      </nav>
+    </section>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="page-footer">
+    Coded by <a href="mailto:oseikwamejones@gmail.com">Jones Osei</a>.
+  </footer>
 </body>
 </html>
